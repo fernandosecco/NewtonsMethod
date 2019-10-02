@@ -1,4 +1,4 @@
-function newtonsmethod(p::Poly, x_0; tolerance = 1E-7, maxiter = 100)
+function Newtons_Method(p::Poly, x_0; tolerance = 1E-7, maxiter = 100)
     p´ = polyder(p)
     x_old = x_0
     normdiff = Inf
