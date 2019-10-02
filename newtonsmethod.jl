@@ -11,3 +11,5 @@ function newtonsmethod(p::Poly, x_0; tolerance = 1E-7, maxiter = 100)
     end
     return x_old
 end
+
+#I can't run your damn code.
